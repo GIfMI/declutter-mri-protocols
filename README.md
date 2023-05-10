@@ -3,7 +3,8 @@ Python tools to find differences in Siemens protocol trees and sequence paramete
 
 ## Usage
 
-![image](https://github.com/GIfMI/declutter-mri-protocols/assets/15831740/333680ff-e7ca-446b-b864-2419d350dc38)
+![image](https://github.com/GIfMI/declutter-mri-protocols/assets/15831740/22347ca2-0318-4e09-816e-36e64ba3c5c5)
+
 
 ## Reference
 
