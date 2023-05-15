@@ -30,8 +30,6 @@ parser = argparse.ArgumentParser(description='Find differences in Regions, Exams
 parser.add_argument('outdir', type=str, help='Output dir for xlsx files')
 parser.add_argument('m_file', type=str, help='Master xml file')
 parser.add_argument('c_file', nargs='+', type=str, help='Compare xml files')
-#parser.add_argument('c_xmlfile2', type=str, help='Compare xml file 2')
-
 
 # args in launch.json
 args = parser.parse_args()
