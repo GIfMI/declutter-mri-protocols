@@ -23,24 +23,8 @@ parser = argparse.ArgumentParser(description='Find differences between MRI seque
 parser.add_argument('xmlfile', type=str, help='Input xml file')
 parser.add_argument('outdir', type=str, help='Output dir for xlsx files')
 
-#args = parser.parse_args(["/Users/pimpullens/DATA/currentProjects/MRprotocols/compareProtocols/xmlProtocols/xml/Prisma_Neuro_Hoofd_Hals_02072020.xml","/Users/pimpullens/DATA/currentProjects/MRprotocols/compareProtocols/xmlProtocols/xml/out"])
-#for paper
-#args = parser.parse_args(["/Users/pimpullens/Documents/MRprotocolsVM/protocolOptim/1_original/xml/Avanto_Neuro_19032020.xml","/Users/pimpullens/Documents/MRprotocolsVM/protocolOptim/1_original/xml/"])
-args = parser.parse_args(["/Users/pimpullens/Documents/MRprotocolsVM/protocolOptim/2_renamed/xml/Avanto_Neuro_Hoofd_Hals_22062020.xml","/Users/pimpullens/Documents/MRprotocolsVM/protocolOptim/2_renamed/xml/"])
-#args = parser.parse_args(["/Users/pimpullens/Documents/MRprotocolsVM/protocolOptim/2_renamed/xml/Aera_Neuro_Hoofd_Hals_22062020.xml","/Users/pimpullens/Documents/MRprotocolsVM/protocolOptim/2_renamed/xml/"])
-#args = parser.parse_args(["/Users/pimpullens/Documents/MRprotocolsVM/protocolOptim/2_renamed/xml/Prisma_Neuro_Hoofd_Hals_02072020.xml","/Users/pimpullens/Documents/MRprotocolsVM/protocolOptim/2_renamed/xml/"])
-
-#args = parser.parse_args(["/Users/pimpullens/Documents/MRprotocolsVM/protocolOptim/1_original/xml/Avanto_Neuro_19032020.xml","/Users/pimpullens/Documents/MRprotocolsVM/protocolOptim/1_original/xml/"])
-#args = parser.parse_args(["/Users/pimpullens/Documents/MRprotocolsVM/protocolOptim/1_original/xml/NEURO_Prisma.xml","/Users/pimpullens/Documents/MRprotocolsVM/protocolOptim/1_original/xml/"])
-#args = parser.parse_args(["/Users/pimpullens/Documents/MRprotocolsVM/protocolOptim/1_original/xml/Aera_Hersenen.xml","/Users/pimpullens/Documents/MRprotocolsVM/protocolOptim/1_original/xml/"])
-
-
-#args = parser.parse_args()
+args = parser.parse_args()
 tree=etree.parse(args.xmlfile)
-
-
-# tree=etree.parse("/Users/pimpullens/DATA/currentProjects/MRprotocols/compareProtocols/xmlProtocols/xml/Prisma_Neuro_Hoofd_Hals_02072020.xml")
-# opath = ('/Users/pimpullens/DATA/currentProjects/MRprotocols/compareProtocols/xmlProtocols/xml/out')
 
 opath = args.outdir
 wdir = os.getcwd()
