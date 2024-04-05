@@ -3,6 +3,10 @@ Python tools to find differences in Siemens protocol trees and sequence paramete
 
 ## Requirements
 
+run `pip install -r requirements.txt` 
+
+or install manually:
+
 - dictdiffer `$ pip install dictdiffer` 
 - xlsxwriter `$ pip install xlsxwriter`
 - pandas `$ pip install pandas`
