@@ -1,6 +1,11 @@
 # declutter-mri-protocols
 Python tools to find differences in Siemens protocol trees and sequence parameters. 
 
+## Requirements
+
+- dictdiffer `$ pip install dictdiffer` 
+- xlsxwriter `$ pip install XlsxWriter`
+
 ## Usage
 
 ![image](https://github.com/GIfMI/declutter-mri-protocols/assets/15831740/22347ca2-0318-4e09-816e-36e64ba3c5c5)
