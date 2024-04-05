@@ -5,7 +5,7 @@ Python tools to find differences in Siemens protocol trees and sequence paramete
 
 - dictdiffer `$ pip install dictdiffer` 
 - xlsxwriter `$ pip install xlsxwriter`
-- pandas `$pip install pandas`
+- pandas `$ pip install pandas`
 
 ## Usage
 
