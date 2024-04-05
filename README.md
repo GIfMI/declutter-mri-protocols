@@ -3,7 +3,7 @@ Python tools to find differences in Siemens protocol trees and sequence paramete
 
 ## Requirements
 
-run `pip install -r requirements.txt` 
+run `$ pip install -r requirements.txt` 
 
 or install manually:
 
