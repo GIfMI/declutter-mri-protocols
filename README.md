@@ -4,7 +4,7 @@ Python tools to find differences in Siemens protocol trees and sequence paramete
 ## Requirements
 
 - dictdiffer `$ pip install dictdiffer` 
-- xlsxwriter `$ pip install XlsxWriter`
+- xlsxwriter `$ pip install xlsxwriter`
 
 ## Usage
 
@@ -13,7 +13,7 @@ Python tools to find differences in Siemens protocol trees and sequence paramete
 
 ## Reference
 
-When using the tools, please cite the following conference paper: Pullens, Pim, Devolder, Pieter, Thienpont, Tony, Achten, Eric: _Declutter the protocol tree: managing and comparing sequence parameters of multiple clinical systems using Python tools._ In Proc ISMRM 2020; :4160.
+When using the tools, please cite the following paper: Pullens, P. et al. Declutter the MRI protocol tree: Managing and comparing sequence parameters of multiple clinical Siemens MRI systems. Physica Medica 120, 103342 (2024).
 
 ## Acknowledgement
 
