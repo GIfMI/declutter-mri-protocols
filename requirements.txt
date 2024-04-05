@@ -1,0 +1,6 @@
+# requirements.txt
+
+pandas
+xmldiff
+xlsxwriter
+dictdiffer
