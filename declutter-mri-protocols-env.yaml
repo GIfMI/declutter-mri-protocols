@@ -1,0 +1,31 @@
+name: declutter-mri-protocols-env
+channels:
+  - defaults
+dependencies:
+  - bzip2=1.0.8=h80987f9_5
+  - ca-certificates=2024.3.11=hca03da5_0
+  - libffi=3.4.4=hca03da5_0
+  - ncurses=6.4=h313beb8_0
+  - openssl=3.0.13=h1a28f6b_0
+  - pip=23.3.1=py311hca03da5_0
+  - python=3.11.8=hb885b13_0
+  - readline=8.2=h1a28f6b_0
+  - setuptools=68.2.2=py311hca03da5_0
+  - sqlite=3.41.2=h80987f9_0
+  - tk=8.6.12=hb8d0fd4_0
+  - wheel=0.41.2=py311hca03da5_0
+  - xz=5.4.6=h80987f9_0
+  - zlib=1.2.13=h5a0b063_0
+  - pip:
+      - dictdiffer==0.9.0
+      - et-xmlfile==1.1.0
+      - lxml==5.2.1
+      - numpy==1.26.4
+      - openpyxl==3.1.2
+      - pandas==2.2.1
+      - python-dateutil==2.9.0.post0
+      - pytz==2024.1
+      - six==1.16.0
+      - tzdata==2024.1
+      - xlsxwriter==3.2.0
+      - xmldiff==2.6.3
