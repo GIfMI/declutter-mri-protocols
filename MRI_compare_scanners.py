@@ -6,11 +6,6 @@ Created on Wed Sep 25 14:02:25 2019
 @author: pimpullens, pieterdevolder, nathansennesael
 """
 
-from enum import unique
-from lxml import etree
-from xmldiff import main, formatting
-from collections import OrderedDict
-
 import dictdiffer
 import sys
 import os
@@ -23,6 +18,10 @@ import pandas as pd
 import protocoltree as pt
 import helper
 
+from enum import unique
+from lxml import etree
+from xmldiff import main, formatting
+from collections import OrderedDict
 from argparse import RawTextHelpFormatter
 
 #get xmlfiles
@@ -30,6 +29,8 @@ parser = argparse.ArgumentParser(description='Find differences in Regions, Exams
 parser.add_argument('outdir', type=str, help='Output dir for xlsx files')
 parser.add_argument('m_file', type=str, help='Master xml file')
 parser.add_argument('c_file', nargs='+', type=str, help='Compare xml files')
+#parser.add_argument('c_xmlfile2', type=str, help='Compare xml file 2')
+
 
 # args in launch.json
 args = parser.parse_args()
@@ -50,6 +51,7 @@ m_header = m_root.findall(".//PrintTOC/TOC/HeaderTitle")
 m_scanner = m_header[0].text
 m_scanner = m_scanner.strip()
 m_scanner = re.sub(r' ','_',m_scanner)
+m_scanner = re.sub(r'/','_',m_scanner)
 
 #get master tree
 m_tree = pt.ProtocolTree(m_tree,m_scanner)
