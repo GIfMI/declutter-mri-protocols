@@ -4,3 +4,4 @@ pandas
 xmldiff
 xlsxwriter
 dictdiffer
+openpyxl
