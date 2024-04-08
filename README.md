@@ -1,6 +1,8 @@
 # declutter-mri-protocols
 Python tools to find differences in Siemens protocol trees and sequence parameters. 
 
+[![DOI](https://zenodo.org/badge/638967134.svg)](https://zenodo.org/doi/10.5281/zenodo.10940450)
+
 ## Requirements
 
 run `$ pip install -r requirements.txt` 
