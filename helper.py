@@ -8,6 +8,7 @@ import re
 import dictdiffer
 import os
 
+
 #global bold, cell_format_blue, cell_format_green, cell_format_red, cell_format_right
 
 # def format_workbook(workbook):
@@ -259,16 +260,17 @@ def compareSets(m_TOCdf, c_TOCdf, level, opath):
         total_sets = pd.concat([set_intersection,set_not_in_compare,set_not_in_master],axis=0)
 
         if i==0:
-            with pd.ExcelWriter(TOC_excel2, 'openpyxl') as writer:
+            with pd.ExcelWriter(TOC_excel2, mode="a" ,engine="openpyxl") as writer:
             # fix line
                 writer.sheets = dict((ws.title, ws) for ws in writer.book.worksheets)
                 total_sets.to_excel(writer,sheet_name=level)
                 i=1
         else:
-            with pd.ExcelWriter(TOC_excel2, 'openpyxl', mode='a') as writer:
+            with pd.ExcelWriter(TOC_excel2, engine='openpyxl', mode='a') as writer:
                 # fix line
                 writer.sheets = dict((ws.title, ws) for ws in writer.book.worksheets)
                 total_sets.to_excel(writer,sheet_name=level)
                 writer.close()
 
     return total_sets
+# %%
