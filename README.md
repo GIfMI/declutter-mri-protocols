@@ -22,7 +22,7 @@ or install manually:
 
 ## Reference
 
-When using the tools, please cite the following paper: Pullens, P. et al. Declutter the MRI protocol tree: Managing and comparing sequence parameters of multiple clinical Siemens MRI systems. Physica Medica 120, 103342 (2024).
+When using the tools, please cite the following paper: Pullens, P. et al. Declutter the MRI protocol tree: Managing and comparing sequence parameters of multiple clinical Siemens MRI systems. Physica Medica 120, 103342 (2024) [https://doi.org/10.1016/j.ejmp.2024.103342](https://doi.org/10.1016/j.ejmp.2024.103342).
 
 ## Acknowledgement
 
