@@ -16,6 +16,7 @@ or install manually:
 - openpyxl `$ pip install openpyxl`
 
 ## Usage
+You can use the tools in a conda environment: [declutter-mri-protocols-env.yaml](https://github.com/GIfMI/declutter-mri-protocols/blob/main/declutter-mri-protocols-env.yaml)
 
 ![image](https://github.com/GIfMI/declutter-mri-protocols/assets/15831740/22347ca2-0318-4e09-816e-36e64ba3c5c5)
 
