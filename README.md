@@ -11,6 +11,7 @@ or install manually:
 - xlsxwriter `$ pip install xlsxwriter`
 - pandas `$ pip install pandas`
 - xmldiff `$ pip install xmldiff`
+- openpyxl `$ pip install openpyxl`
 
 ## Usage
 
